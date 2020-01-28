@@ -7,9 +7,9 @@ public class PokerHandsKata {
     }
 
     public interface Decision {
-        public Player getWinner();
-        public HandRanking getBlackRanking();
-        public HandRanking getWhiteRanking();
+        Player getWinner();
+        HandRanking getBlackRanking();
+        HandRanking getWhiteRanking();
     }
 
     public enum Player {
@@ -17,6 +17,6 @@ public class PokerHandsKata {
     }
 
     public enum HandRanking {
-        STRAIGHT, FLUSH, STRAIGHT_FLUSH;
+        HIGH_CARD, STRAIGHT, FLUSH, STRAIGHT_FLUSH;
     }
 }
