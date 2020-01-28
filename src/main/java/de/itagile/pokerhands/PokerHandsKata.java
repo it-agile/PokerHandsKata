@@ -2,13 +2,15 @@ package de.itagile.pokerhands;
 
 public class PokerHandsKata {
 
-    public Decision decideWinner(String blackHand, String whiteHand) {
-        return null;
+    public interface Decider {
+        Decision decideWinner(String blackHand, String whiteHand);
     }
 
     public interface Decision {
         Player getWinner();
+
         HandRanking getBlackRanking();
+
         HandRanking getWhiteRanking();
     }
 

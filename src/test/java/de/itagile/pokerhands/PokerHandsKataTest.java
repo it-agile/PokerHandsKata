@@ -2,7 +2,7 @@ package de.itagile.pokerhands;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class PokerHandsKataTest {
 
@@ -15,6 +15,6 @@ public class PokerHandsKataTest {
 
     @Test
     public void FIXME() {
-        assertEquals(1,2);
+        assertEquals(1, 2);
     }
 }
